@@ -1,0 +1,39 @@
+.Skill-details-container {
+    text-align: center;
+    padding: 20px;
+    /* margin-top: 106px; */
+  }
+.Skill-details-container > h1{
+  font-family: "eurostile", sans-serif;
+  color: #141c3a;
+}
+  .logos-grid {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 74px;
+
+    grid-template-columns: repeat(2, 1fr); 
+  
+    @media (min-width: 600px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (min-width: 900px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  
+  .skill-divider {
+    margin: 72px 0;
+    border: 1px solid #e6edf7;
+    width: 100%;
+  }
+  
+  .skill-divider-upper {
+    margin: 72px 0;
+    border: 1px solid #e6edf7;
+    width: 100%;
+  }
+  

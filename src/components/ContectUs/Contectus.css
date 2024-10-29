@@ -1,0 +1,151 @@
+.MainContainerContectUsForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86vh;
+    padding: 0 20px;
+}
+
+.ContectUsFormHeader {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    width: 96%;
+}
+
+.closeButtonHr {
+    border: 1px solid #e6edf7;
+    margin: 0;
+}
+
+.CloseButton {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.ContectUsFormContainer {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.ContectUsFormLeftSection,
+.ContectUsFormRightSection {
+    flex: 1;
+    padding: 20px;
+    min-width: 300px;
+    box-sizing: border-box;
+}
+
+.ContectUsFormLeftSection {
+    background-color: azure;
+}
+
+.ContectUsFormRightSection {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContectUsFormRightSection h1 {
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+.ContectUsFormRightSection p {
+    margin-bottom: 16px;
+    color: #555;
+}
+
+.ContactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    max-width: 300px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.InputField,
+.MessageBox {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+.MessageBox {
+    resize: vertical;
+    height: 100px;
+}
+
+.SubmitButton {
+    padding: 10px;
+    border: 2px solid #141c3a;
+    color: black;
+    font-size: 1em;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: transparent;
+}
+
+.SubmitButton:hover {
+    background-color: #141c3a;
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .MainContainerContectUsForm {
+        height: auto;
+        padding: 20px;
+    }
+
+    .ContectUsFormContainer {
+        max-width: 90%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ContectUsFormContainer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .ContectUsFormLeftSection,
+    .ContectUsFormRightSection {
+        min-width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ContectUsFormRightSection h1 {
+        font-size: 1.5em;
+    }
+
+    .ContectUsFormRightSection p {
+        font-size: 0.9em;
+    }
+
+    .SubmitButton {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+}

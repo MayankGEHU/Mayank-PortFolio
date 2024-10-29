@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+}
+
+::selection {
+    background-color: #5be9b9; 
+    color: #FFFFFF;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px; 
+    margin-top: 30px;
+}
+
+.right-section {
+    margin-right: 101px;
+}
+
+.SayHelloContainer {
+    border: 2px solid #822AFD;
+    border-radius: 50px;
+    transition: all 0.3s ease; 
+    width: 150%;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer; 
+    margin: 0 auto; 
+}
+
+.SayHelloContainer > a { 
+    color: #822AFD; 
+    text-decoration: none;
+    display: flex;
+    align-items: center; 
+    height: 100%; 
+    font-family: "europa", sans-serif;
+}
+
+.SayHelloContainer:hover {
+    background-color: #822AFD; 
+}
+
+.SayHelloContainer:hover > a { 
+    color: #fff; 
+}
+
+.Intro {
+    text-align: center;
+    margin-top: 105px;
+}
+
+.Intro > h1 {
+    font-family: "eurostile", sans-serif;
+    font-size: 6.5vh;
+    color: #141c3a;
+}
+
+.Intro > h3 {
+    margin-top: 20px;
+    font-size: 1.55rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "europa", sans-serif;
+}
+
+.HeroSectionDash {
+    width: 100%;
+    height: 700px;
+}

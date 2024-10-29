@@ -1,0 +1,38 @@
+.Information-About {
+    background-color: #822AFD;
+    text-align: center;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-Details {
+    margin-top: -50px; 
+    width: 90%; 
+    /* max-width: 70vh; */
+    color: white;
+}
+.box-Details > h1{
+    font-family: "europa", sans-serif;
+}
+.box-Details > p{
+    font-family: "europa", sans-serif;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    word-break: break-word;
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .box-Details {
+        width: 127vh;
+        margin-top: -70px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .box-Details {
+        width: 127vh;
+        margin-top: -97px;
+    }
+}

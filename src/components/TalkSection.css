@@ -1,0 +1,25 @@
+.boxcontainer{
+    height: 52vh;
+    margin-top: -26px;
+}
+
+.TalksectionHeading{
+    text-align: center;
+}
+.TalksectionHeading  h1{
+    font-family: "eurostile", sans-serif;
+    color: #141c3a;
+}
+.TalksectionHeading > h3{
+    margin-top: 30px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "europa", sans-serif;
+}
+.textcontainer{
+    padding-top: 59px;
+}
+.textbox a > h4{
+    font-family: "eurostile", sans-serif;
+} 

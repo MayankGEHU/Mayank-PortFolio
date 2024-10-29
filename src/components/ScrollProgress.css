@@ -1,0 +1,12 @@
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 7px;
+    background-color: #5be9b9; 
+    z-index: 9999;
+    transition: width 0.1s ease;
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+  }
+  

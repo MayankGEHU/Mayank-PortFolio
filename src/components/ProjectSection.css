@@ -1,0 +1,104 @@
+.topInfo {
+    text-align: center;
+    margin-top: 134px;
+    margin-bottom: 20px;
+  }
+.topInfo > h1{
+  font-family: "eurostile", sans-serif;
+  color: #141c3a;
+}
+.topInfo > h3{
+  margin-top: 30px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: "europa", sans-serif;
+}
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px; 
+    padding: 20px;
+  }
+  
+  .cardBox {
+    padding: 20px;
+    border: 1px solid #e6edf7;
+    border-radius: 8px;
+    min-height: 230px; 
+    background-image: url('../assets/Project1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.cardBox:hover {
+    background-color: #141c3a;
+    color: white;
+    background-blend-mode: overlay; 
+}
+
+
+  
+  @media (max-width: 900px) {
+    .cardContainer {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .cardContainer {
+      grid-template-columns: 1fr; 
+    }
+  }
+  
+  .textcontainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .textbox {
+    border: 2px solid #822AFD;
+    border-radius: 50px;
+    text-align: center;
+    width: 15%;
+    transition: all 0.3s ease; 
+    padding: 18px 10px; 
+    color: #822AFD;
+}
+
+.textbox:hover {
+    background-color: #822AFD;
+    color: #fff;
+}
+
+.textbox > a {
+    text-decoration: none;
+    color: inherit; 
+    transition: color 0.3s ease; 
+}
+
+.textbox:hover > a {
+    color: #fff; 
+}
+
+  @media (max-width: 768px) {
+    .textbox {
+      width: 40%; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .textbox {
+      width: 70%; 
+    }
+  }
+  
+  /* .Project-divider {
+    margin: 72px 0;
+    border: 1px solid #e6edf7;
+    width: 100%;
+  }
+   */
